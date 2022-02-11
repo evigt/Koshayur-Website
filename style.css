@@ -100,14 +100,13 @@ padding-bottom: 12px;
     margin-top: 50px;
     margin-bottom: 50px;
 }
-
 .product-detail h4{
-    font-size: 12px;
+    font-size: 9px;
     text-transform: uppercase;
     margin-bottom: 5px;
 }
 .product-detail p{
-    font-size: 12px;
+    font-size: 9px;
     margin-bottom: 8px;
 }
 .logo-l{
