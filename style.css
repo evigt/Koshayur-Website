@@ -29,6 +29,14 @@ body{
   }
 }
 @media screen and (max-width: 480px) {
+  .allproduct{
+    flex-direction:column ;
+    display: flex;
+    font-size: 19px;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
   .item img {
     height: 400px;
   }
