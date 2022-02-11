@@ -37,9 +37,13 @@ body{
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.pro{
-  font-size: ;
+.product-detail p{
+  font-size: 12px;
+  margin-bottom: 4px;
 }
+/* .pro{
+  font-size: ;
+} */
   .item img {
     height: 400px;
   }
@@ -103,12 +107,12 @@ padding-bottom: 12px;
 }
 
 .product-detail h4{
-    font-size: 14px;
+    font-size: 12px;
     text-transform: uppercase;
     margin-bottom: 5px;
 }
 .product-detail p{
-    font-size: 14px;
+    font-size: 12px;
     margin-bottom: 8px;
 }
 .logo-l{
