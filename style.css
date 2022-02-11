@@ -47,10 +47,7 @@ body{
   .item img {
     height: 400px;
   }
-  .product-detail{
-    margin-left: 20px;
-    margin-right: 20px;
-  }
+  
   .owl-item active{
     width: 400px;
   }
@@ -64,9 +61,7 @@ body{
   p{
     font-size: 10px;
   }
-  .product-detail{
-    padding: 0px;
-  }
+  
 }
 @media screen and (max-width: 600px) {
   .item img {
