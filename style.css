@@ -60,6 +60,9 @@ body{
   p{
     font-size: 6px;
   }
+  .product-detail{
+    padding: 0px;
+  }
 }
 @media screen and (max-width: 600px) {
   .item img {
@@ -100,7 +103,7 @@ padding-bottom: 12px;
 }
 
 .product-detail h4{
-    /* font-size: 20px; */
+    font-size: 14px;
     text-transform: uppercase;
     margin-bottom: 5px;
 }
