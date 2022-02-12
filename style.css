@@ -10,12 +10,15 @@ body{
 .allproduct{
   flex-direction:column ;
   display: flex;
-  font-size: 19px;
+  font-size: 22px;
   align-items: center;
-  margin-top: 20px;
+  /* margin-top: 20px; */
   margin-bottom: 20px;
 }
-
+.contact{
+  font-size: 22px;
+  display: flex;
+}
 .item {
   background: #abc;
   padding: 5px;
@@ -52,7 +55,7 @@ padding-bottom: 12px;
     margin-bottom: 5px;
 }
 .product-detail p{
-    font-size: px;
+    font-size: 22px;
     margin-bottom: 8px;
 }
 .logo-l{
@@ -65,17 +68,20 @@ padding-bottom: 12px;
 .product{
   margin-bottom: 50px;
 }
-.contact{
-  display: flex;
-}
+
 .footer{
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+.contactimg{
+  width: auto;
+  height: 30px;
+}
 
-
-
+.carousels{
+  margin-top:20px ;
+}
 
 hr{
   margin: 0;
@@ -100,13 +106,43 @@ ul {
 }
 
 
+@media screen and (max-width:400px) {
+  .contact h4{
+    font-size: 16px;
+    display: flex;
+  }
+  .detail h2 {
+    font-size: 16px;
+  }
+  .contactimg{
+    width: auto;
+    height: 23px;
+}
+  }
+  
+  .carousels{
+    margin-top:10px ;
+  }
+  .product-detail h4{
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+  .detail{
+    margin-top: 12px;
+    /* padding: 4px; */
+  }
+  .product-detail p{
+    font-size: 16px;
+    margin-bottom: 8px;
+}
 
 
 
 
 
 
-@media screen and(max-width:375px) {
+/* @media screen and(max-width:300px) {
   .detail h2 {
     font-size: 22px;
   }
@@ -152,7 +188,7 @@ ul {
   } */
    */
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   .item img {
     height: 200px;
   }
@@ -170,4 +206,4 @@ ul {
   .item img {
     height: 200px;
   }
-}
+} */ */
