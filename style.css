@@ -15,14 +15,7 @@ body{
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.detail {
-  padding: 10px;
-  margin-top: 20px;
-  /* border-radius: 8px; */
-  display: flex;
-  flex-direction: R ;
-  justify-content: space-between;
-}
+
 .item {
   background: #abc;
   padding: 5px;
@@ -59,7 +52,7 @@ padding-bottom: 12px;
     margin-bottom: 5px;
 }
 .product-detail p{
-    font-size: 22px;
+    font-size: px;
     margin-bottom: 8px;
 }
 .logo-l{
@@ -111,20 +104,12 @@ ul {
 
 
 
-@media screen and (max-width: 300px) {
-  .product-detail h4{
-    font-size: 22px;
-    text-transform: uppercase;
-    margin-bottom: 5px;
-}
-}
+
 
 @media screen and(max-width:375px) {
-  .product-detail h4{
+  .detail h2 {
     font-size: 22px;
-    text-transform: uppercase;
-    margin-bottom: 5px;
-}
+  }
   .ingredient{
     font-size:8px;
   }
