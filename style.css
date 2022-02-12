@@ -17,7 +17,8 @@ body{
 }
 .contact{
   font-size: 22px;
-  display: flex;
+    display: flex;
+    align-items: flex-end;
 }
 .item {
   background: #abc;
@@ -82,7 +83,9 @@ padding-bottom: 12px;
 .carousels{
   margin-top:20px ;
 }
-
+.Ingredient-h{
+  font-size: 22px;
+}
 hr{
   margin: 0;
 }
@@ -107,6 +110,12 @@ ul {
 
 
 @media screen and (max-width:400px) {
+  .Ingredient-h{
+    margin-bottom: 0px;
+    text-align: center;
+    margin: 20px;
+    font-size: 18px;
+  }
   .contact h4{
     font-size: 16px;
     display: flex;
@@ -116,7 +125,7 @@ ul {
   }
   .contactimg{
     width: auto;
-    height: 23px;
+    height: 26px;
 }
   }
   
