@@ -18,7 +18,7 @@ body{
 .contact{
   font-size: 22px;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
 }
 .item {
   background: #abc;
@@ -119,6 +119,7 @@ ul {
   .contact h4{
     font-size: 16px;
     display: flex;
+    
   }
   .detail h2 {
     font-size: 16px;
