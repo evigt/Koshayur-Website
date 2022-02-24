@@ -20,6 +20,12 @@ body{
     display: flex;
     align-items: center;
 }
+.next{
+  color: black !important;
+}
+.benefits li{
+list-style: none;
+}
 .item {
   background: #abc;
   padding: 5px;
@@ -37,7 +43,20 @@ body{
   margin-left: 20px;
   margin-right: 20px;
 }
-
+a{
+  color: black;
+}
+.INGREDIENT  li{
+list-style: none;
+}
+.productimg:hover
+{
+  transform: rotate(2deg);
+}  
+a:hover{
+  text-decoration: none;
+  color: black;
+}
 .img{
     background-color: rgba(255, 255, 255, 0.973);
     display: flex;
@@ -89,7 +108,7 @@ padding-bottom: 12px;
 hr{
   margin: 0;
 }
-ul {
+a {
   padding: 0px;
   list-style: none;
 }
@@ -108,8 +127,28 @@ ul {
 /* border-left: solid #0000001a 1px */
 }
 
+.INGREDIENT{
+  padding: 0px;
+}
 
+.Product-Benefits{
+  margin-bottom: 8px !important;
+  margin-top: 20px !important;
+}
 @media screen and (max-width:400px) {
+  .certified{
+    width: 100px;
+  }
+  
+  .benefit{
+    margin-bottom: 5px !important;
+  }
+  .onlieshop{
+    margin-top: 10px !important;
+  }
+  .shop{
+    width: 100px;
+  }
   .Ingredient-h{
     margin-bottom: 0px;
     text-align: center;
