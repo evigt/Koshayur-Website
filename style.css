@@ -150,8 +150,8 @@ a {
     font-size: 12px;
 
   }
-  .carouselExampleIndicators{
-    width: 100%;
+  #carouselExampleIndicators{
+    width: 100% !important;
   }
   h5{
     font-size: 16px;
