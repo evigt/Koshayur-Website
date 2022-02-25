@@ -7,16 +7,6 @@ body{
   flex-direction: column;
   align-items: center;
 }
-
-.how-to-use-box{
-  background-color: #51515117 ;
-  border-radius: 20px;
-  padding: 20px;
-  margin-top: 54px;
-} 
-
-
-
 .allproduct{
   flex-direction:column ;
   display: flex;
@@ -151,6 +141,14 @@ a {
   margin-top: 20px !important;
 }
 @media screen and (max-width:400px) {
+.icon2{
+  margin-top: 4px !important;
+  }
+  
+  .how-to-use-box{
+margin-top: 20px !important;
+  }
+
   h6{
   font-size: 12px;
   }
@@ -162,7 +160,8 @@ a {
     font-size: 22px !important;
   }
   .hadding{
-    font-size: 16px;
+    margin-top: 20px !important;
+    font-size: 16px !important;
   }
   h4{
     font-size: 14px;
@@ -223,13 +222,6 @@ a {
     font-size: 16px;
     margin-bottom: 8px;
 }
-
-
-
-
-
-
-
   .item img {
     height: 400px;
   }
