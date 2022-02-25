@@ -9,11 +9,14 @@ body{
 }
 
 .how-to-use-box{
-  background-color: #f7f7f773 ;
+  background-color: #51515117 ;
   border-radius: 20px;
   padding: 20px;
   margin-top: 54px;
 } 
+
+
+
 .allproduct{
   flex-direction:column ;
   display: flex;
@@ -170,7 +173,7 @@ a {
     width: 100% !important;
   }
   h5{
-    font-size: 16px;
+    font-size: 14px;
   }
   .benefit{
     margin-bottom: 5px !important;
@@ -191,6 +194,9 @@ a {
     font-size: 16px;
     display: flex;
     
+  }
+  h2{
+    font-size: 16px;
   }
   .detail h2 {
     font-size: 16px;
@@ -223,37 +229,7 @@ a {
 
 
 
-/* @media screen and(max-width:300px) {
-  .detail h2 {
-    font-size: 22px;
-  }
-  .ingredient{
-    font-size:8px;
-  }
-  .product-detail{
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-  .productName{
-    font-size: 12px;
-  }
 
-
-@media screen and (max-width: 480px) {
-  .btn {
-    width: 100%; 
-     font-size: 8px;
-   }
-  /* .ingredient{
-    font-size:8px;
-  }
-  .detail ul h2{
-    font-size: 8px;
-  }
- .product-detail p{
-  font-size: 12px;
-  margin-bottom: 4px;
- } */
   .item img {
     height: 400px;
   }
