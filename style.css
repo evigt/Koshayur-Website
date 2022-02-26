@@ -93,7 +93,9 @@ padding-bottom: 12px;
 .product{
   margin-bottom: 50px;
 }
-
+ul{
+  padding: 15px;
+}
 .footer{
   display: flex;
   flex-direction: column;
