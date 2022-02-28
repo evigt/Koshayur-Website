@@ -7,6 +7,66 @@ body{
   flex-direction: column;
   align-items: center;
 }
+.ingre-box h3{
+  margin-top: 10px;
+  font-size: 22px;
+}
+.CAUTION-h{
+  margin-top: 70px  !important;
+}
+.ingre-img h4{
+  font-size:20px ;
+}
+.ingre-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.pt-80{
+  padding-top: 80px;
+}
+
+.pb-80{
+  padding-bottom: 80px;
+}
+
+.ingre{
+
+  margin-top: 70px;
+}
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.userese{
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+}
+.ingre-img{
+  margin: 20px;
+}
+.ingre{
+  background-color: rgb(250 87 139 / 12%) ;
+}
+.ingre-ashwa{
+  
+background-color:rgb(173 96 7 / 12%) ;
+}
+
+.mb-0{
+  margin-bottom: 0px;
+}
+
+.use{
+padding: 22px;
+background-color: rgb(250 87 139 / 12%) ;
+}
+.product-d{
+margin-top: 40px;
+}
 .husk-icon{
   display: flex;
   flex-direction: column  ;
@@ -26,7 +86,8 @@ body{
 } 
 
 .contact{
-  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 18px;
     display: flex;
     align-items: center;
 }
@@ -105,18 +166,37 @@ ul{
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: Arial, Helvetica, sans-serif !important;
+  background-color: #000000;
+  color: #ffffff;
 }
+.ingre-aswa{
+  background-color: #d3720238;
+}
+.font-20{
+  font-size: 20px;
+}
+
 .contactimg{
   width: auto;
-  height: 30px;
+  height: 25px;
 }
 
 .carousels{
   margin-top:20px ;
 }
-.Ingredient-h{
-  font-size: 22px;
+.ingredient-h{
+  margin-bottom: 15px;
+  font-size: 32px;
+  font-family: 'Playfair Display', serif;
 }
+
+.main-heading{
+  margin-bottom: 15px;
+  font-size: 32px;
+  font-family: 'Playfair Display', serif;
+}
+
 hr{
   margin: 0;
 }
@@ -159,17 +239,14 @@ margin-top: 20px !important;
   h6{
   font-size: 12px;
   }
+  
   .certified{
     margin: 4px;
-    width: 80px;
-  }
+    }
   .product-name{
     font-size: 22px !important;
   }
-  .hadding{
-    margin-top: 20px !important;
-    font-size: 16px !important;
-  }
+
   h4{
     font-size: 14px;
 
@@ -190,6 +267,9 @@ margin-top: 20px !important;
   .shop{
     width: 100px;
   }
+  .Ingredient h2{
+    font-size: 12px !important;
+  }
   .Ingredient-h{
     margin-bottom: 0px;
     text-align: center;
@@ -198,7 +278,7 @@ margin-top: 20px !important;
   }
   .contact h4{
     font-size: 16px;
-    display: flex;
+    /* display: flex; */
     
   }
   h2{
