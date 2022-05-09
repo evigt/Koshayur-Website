@@ -218,6 +218,7 @@ ul{
   color: #ffffff;
 }
 .ingre-aswa{
+  margin-top: 40px;
   background-color: #d3720238;
 }
 .font-20{
@@ -274,7 +275,18 @@ a {
   margin-bottom: 8px !important;
   margin-top: 20px !important;
 }
+.banner{
+  width: 100%;
+}
 @media screen and (max-width:400px) {
+  .banner{
+    width: 100%;
+    height: 197px;
+    object-fit: cover;
+  }
+  .ingre-aswa{
+    
+  }
   ul{
     padding-top: 5px;
   }
