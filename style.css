@@ -173,7 +173,8 @@ list-style: none;
 }  
 a:hover{
   text-decoration: none;
-  color: black;
+ color: #7e7e7e;
+
 }
 .img{
     background-color: rgba(255, 255, 255, 0.973);
@@ -266,7 +267,9 @@ a {
   /* border-top: solid #0000001a 1px; */
 /* border-left: solid #0000001a 1px */
 }
-
+.whatsapp{
+  color: #fff;
+}
 .INGREDIENT{
   padding: 0px;
 }
